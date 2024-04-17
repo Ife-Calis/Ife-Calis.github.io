@@ -3,6 +3,7 @@
 ### 💡 How to use?
 very easy to use, you just need to download the html & css files and make sure that the images are coreectly linked.
 Open the index.html file in your browser and your website is ready!
+## Getting Started
 To access Dark-Night-Theme-Website, visit [Dark-Night.Website](https://ife-calis.github.io/) and start veiwing the website.
 ### 🔴 Live Demo:
 [Click here](https://youtu.be/bwdKe6KwsOo?si=82nWFLJD38atU6Ap) to check out live demo!
