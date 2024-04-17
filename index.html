@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css"/>
+    <title>Good Website</title>
+  </head>
+  <body>
+    <header>
+      <a href="#" class="logo">Calis</a>
+      <ul>
+        <li><a href="#">Github</a></li>
+        <li><a href="#">Linkedin</a></li>
+        <li><a href="#">Twitter</a></li>
+        <li><a href="#">Youtube</a></li>
+      </ul>
+    </header>
+    <section>
+        <img src="stars.png" id="stars">
+        <img src="moon.png" id="moon">
+        <img src="mountains_behind.png" id="mountains_behind">
+        <h2 id="text">Dark Night</h2>
+        <a href="#" id="btn">Explore</a>
+        <img src="mountains_front.png" id="mountains_front">
+    </section>
+    <div class="sec" id="sec">
+        <h2>Fresh Nice Website</h2>
+          <p>The company itself is a very successful company. For either by law, the distinction of their duties, he hates to be excepted to the architect, I will open the smallest troubles to his pleasure, and often the rougher ones to the necessities of the way, I will explain the whole option by rejecting any blinded debts.  This is to be rejected by the great, unless they are more severe, because they are free from pleasure.  We are able to provide that every person who accuses is born to be born, his duties are a flight of time.  Since, those who do not know who the error is, and who do not have any.<br><br>The company itself is a very successful company.Wherefore she, indeed, or the whole of the mind, therefore, and whatever repulses them, is to be blamed for the consequences, from the just architect of the times and the like, the gains and pains here can only be repudiated.  Architect, by right, because you and the like are blessed and you must bear them pain, and no one chooses pleasure from labor. In rejecting this from assuming the error, for he hates any kind of manner, any of the present.  Here no one is not blinded to us, their duties will come to pass, or their laborious matter, for they seek troubles, indeed, they run away from the desire of pain to prevent them from enduring but the least.  I hate and even the most worthy, they do not know who will explain him by rejecting duties, for there is no one who does not hate anything for the desire of life, for the pleasure of labors, because we can be corrupted by pains.  He seeks to be held, they do not know the pain of their troubles.<br><br>The company itself is a very successful company. To us and like every pain is a great and laborious one.  By any effort, assuming that there is no error here or that no pain should be avoided by the corrupt, we may be softened or some may be bound to save them; Look at the body's roughest snacks!  By right, which times of flattery fall from the time of hardships, we charge comforts and pleasures that no one seeks.  Incidents are born of pleasures, so we lead something expedient to follow!  Is it easy for them to be pursued by some similar labor, but ours is less laborious?  There is nothing out of being, for certain pleasures, which he blames for his desire, will result in the taking of the times for the present, especially in the duties whence such as for whom.  He wants to reject the needs of the most worthy and seek pain in any way possible.  They leave for the chosen one, but the most worthy of us seek the consequences of guilt.<br><br>The company itself is a very successful company. What a mistake at that!  There are times here and there, therefore, for all life, and no one who flees them and the like, except the great truth.  They therefore provide that they should be chosen by him and repulse them, for they are not to be accepted by those who are seen here to do flattery, it is to be repelled to gain, they leave the open, and others are softened, nor any of these!  No one is ever in consequence or fault, nor is he dismayed by the choice of them so that most of all, unless blessed, the whole option prevents some advantage and from which troubles we can obtain flattery. And these are the results of bodily pleasure and the like not the least of which we are born of things.</p>
+    </div>
+    <script>
+        let stars = document.getElementById('stars');
+        let moon = document.getElementById('moon');
+        let mountains_behind = document.getElementById('mountains_behind');
+        let text = document.getElementById('text');
+        let btn = document.getElementById('btn');
+        let mountains_front = document.getElementById('mountains_front');
+        let header = document.querySelector('header');
+
+        window.addEventListener('scroll', function(){
+            let value = window.scrollY;
+            stars.style.left = value * 0.25 + 'px';
+            moon.style.top = value * 1.05 + 'px';
+            mountains_behind.style.top = value * 0.5 + 'px';
+            mountains_front.style.top = value * 0 + 'px';
+            text.style.marginRight = value * 4 + 'px';
+            text.style.marginTop = value * 1.5 + 'px';
+            btn.style.marginTop = value * 1.5 + 'px';
+            header.style.top = value * 0.5 + 'px';
+        })
+    </script>
+    <footer>
+      <p>&copy; 2024 Calis Website. All right reserved.</p>
+      </footer>
+  </body>
+</html>
