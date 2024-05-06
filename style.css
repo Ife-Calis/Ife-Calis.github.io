@@ -6,6 +6,12 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
+@media only screen and (max-width: 620px){
+    /* for mobile phones: */
+    .menu, .main, .right{
+        width: 100%;
+  }
+}
 body
 {
     min-height: 100vh;
